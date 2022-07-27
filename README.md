@@ -22,10 +22,10 @@ Python Modules:
 
 Configuration of the file named 'Environment.py' to parameterise and initialise the model to describe the problem under consideration:
 1. Specify the initial volume of the tumour or tumoroid: V_tumour on line 56.
-2. Specify the cellularity of the volume defined above: cellularity on line 40.
+2. Specify the cellularity of the volume defined above: cellularity on line 70.
 3. Specify the histology: histology_init on line 71. 0 is neuroblastoma, 1 is ganglioneuroblastoma, 2 is nodular ganglioneuroblastoma, 3 is intermixed ganglioneuroblastoma, 4 is ganglioneuroma, 5 is maturing ganglioneuroma, and 6 is mature ganglioneuroma.
-4. Specify the grade of differentiation of the neuroblastomic component of the volume: gradiff one line 84. 0 is undifferentiated, 1 is pooly differentiated, and 2 is differentiating.
-5. Specify the initial level of O2, which is also a proxy for all types of nutrients: O2 on line 119.
+4. Specify the grade of differentiation of the neuroblastic component of the volume: gradiff on line 84. 0 is undifferentiated, 1 is pooly differentiated, and 2 is differentiating.
+5. Specify the initial level of oxygen, which is also a proxy for all types of nutrients: O2 on line 119.
 6. Define the chemotherapy regimen: chemo_start on line 120, chemo_end on line 121, and chemo_effects on line 122.
 7. Define the mutations present in the neuroblastic cells: MYCN_amp on line 133 (MYCN amplification), TERT_rarngm on line 134 (TERT rearrangement), ATRX_inact on line 135 (ATRX inactivation), ALT on line 136 (alternative lengthening of telomeres), and ALK on line 137 (0 means wild type, 1 means ALK amplification or activation, and 2 means other RAS mutations).
 
